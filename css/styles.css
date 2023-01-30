@@ -19,3 +19,18 @@ img {
 	height: 50px;
 	padding: 20px;
 }
+
+ul li {
+	display: inline-block;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	text-decoration: underline;
+	font-weight: bolder;
+	padding: 20px;
+	padding-right: 10px;
+}
+
+ul li a:hover {
+	color: #f11f2f;
+}
