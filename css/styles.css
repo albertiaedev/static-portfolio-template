@@ -85,6 +85,42 @@ ul li a:hover {
 	margin: 40px;
 }
 
+@media (max-width: 1200px) {
+	.btn-download, .btn-hire {
+		color: #d9d9d9;
+		background: #1e1e1e;
+		border: 2px solid #1e1e1e;
+		padding: 10px;
+		margin: 25px;
+		text-decoration: none;
+		font-weight: bolder;
+	}
+
+	.btn-download:hover, .btn-hire:hover {
+		color: #1e1e1e;
+		background: #d9d9d9;
+	}
+
+	.btn-download {
+		margin-left: 60px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.btn-hire {
+		margin-left: 800px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.intro {
+		text-align: justify;
+		font-size: 18px;
+		padding-left: 100px;
+		margin: 40px;
+	}
+}
+
 @media (max-width: 1024px) {
 	.btn-download, .btn-hire {
 		color: #d9d9d9;
@@ -108,14 +144,14 @@ ul li a:hover {
 	}
 
 	.btn-hire {
-		margin-left: 500px;
+		margin-left: 800px;
 		padding-left: 20px;
 		padding-right: 20px;
 	}
 
 	.intro {
 		text-align: justify;
-		font-size: 18px;
+		font-size: 16px;
 		padding-left: 100px;
 		margin: 40px;
 	}
