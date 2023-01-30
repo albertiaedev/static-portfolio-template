@@ -6,3 +6,16 @@
 	color: #1e1e1e;
 	background: #d9d9d9;
 }
+
+img {
+	height: 200px;
+	width: 100%;
+}
+
+#top h2 {
+	color: #d9d9d9;
+	background: #1e1e1e;
+	text-align: center;
+	height: 50px;
+	padding: 20px;
+}
