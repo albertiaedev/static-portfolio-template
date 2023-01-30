@@ -85,7 +85,7 @@ ul li a:hover {
 	margin: 40px;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 1024px) {
 	.btn-download, .btn-hire {
 		color: #d9d9d9;
 		background: #1e1e1e;
@@ -102,21 +102,57 @@ ul li a:hover {
 	}
 
 	.btn-download {
-		margin-left: 10px;
+		margin-left: 60px;
 		padding-left: 20px;
 		padding-right: 20px;
 	}
 
 	.btn-hire {
-		margin-left: 10px;
+		margin-left: 500px;
 		padding-left: 20px;
 		padding-right: 20px;
 	}
 
 	.intro {
 		text-align: justify;
-		font-size: 12px;
-		padding: 0;
+		font-size: 18px;
+		padding-left: 100px;
+		margin: 40px;
+	}
+}
+
+@media (max-width: 800px) {
+	.btn-download, .btn-hire {
+		color: #d9d9d9;
+		background: #1e1e1e;
+		border: 2px solid #1e1e1e;
+		padding: 10px;
+		margin: 25px;
+		text-decoration: none;
+		font-weight: bolder;
+	}
+
+	.btn-download:hover, .btn-hire:hover {
+		color: #1e1e1e;
+		background: #d9d9d9;
+	}
+
+	.btn-download {
+		margin-left: 60px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.btn-hire {
+		margin-left: 500px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.intro {
+		text-align: justify;
+		font-size: 16px;
+		padding-left: 100px;
 		margin: 40px;
 	}
 }
@@ -157,7 +193,7 @@ ul li a:hover {
 	}
 }
 
-@media (max-width: 800px) {
+@media (max-width: 400px) {
 	.btn-download, .btn-hire {
 		color: #d9d9d9;
 		background: #1e1e1e;
@@ -174,21 +210,21 @@ ul li a:hover {
 	}
 
 	.btn-download {
-		margin-left: 60px;
+		margin-left: 10px;
 		padding-left: 20px;
 		padding-right: 20px;
 	}
 
 	.btn-hire {
-		margin-left: 500px;
+		margin-left: 10px;
 		padding-left: 20px;
 		padding-right: 20px;
 	}
 
 	.intro {
 		text-align: justify;
-		font-size: 16px;
-		padding-left: 100px;
+		font-size: 12px;
+		padding: 0;
 		margin: 40px;
 	}
 }
