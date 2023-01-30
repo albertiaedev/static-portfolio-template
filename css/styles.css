@@ -12,7 +12,11 @@ img {
 	width: 100%;
 }
 
-#top h2 {
+h1, h2, h3 {
+	padding: 10px;
+}
+
+#top h2, button {
 	color: #d9d9d9;
 	background: #1e1e1e;
 	text-align: center;
@@ -51,4 +55,13 @@ ul li a:hover {
 .btn:hover {
 	color: #d9d9d9;
 	background: #1e1e1e;
+}
+
+#btn-hire {
+	margin-left: 900px;
+}
+
+.intro {
+	text-align: justify;
+	padding-left: 400px;
 }
