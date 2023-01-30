@@ -33,35 +33,55 @@ h1, h2, h3 {
 	font-weight: bolder;
 	padding: 20px;
 	padding-right: 10px;
+	color: #d9d9d9;
+	background: #1e1e1e;
 }
 
 ul {
 	text-align: center;
+	color: #d9d9d9;
+	background: #1e1e1e;
+}
+
+ul li a {
+	color: #d9d9d9;
+	background: #1e1e1e;
 }
 
 ul li a:hover {
 	color: #f11f2f;
 }
 
-.btn {
+.btn-download, .btn-hire {
+	color: #d9d9d9;
+	background: #1e1e1e;
 	border: 2px solid #1e1e1e;
 	padding: 10px;
 	margin: 25px;
-	margin-left: 150px;
 	text-decoration: none;
 	font-weight: bolder;
 }
 
-.btn:hover {
-	color: #d9d9d9;
-	background: #1e1e1e;
+.btn-download:hover, .btn-hire:hover {
+	color: #1e1e1e;
+	background: #d9d9d9;
 }
 
-#btn-hire {
+.btn-download {
+	margin-left: 150px;
+	padding-left: 20px;
+	padding-right: 20px;
+
+}
+
+.btn-hire {
 	margin-left: 900px;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
 .intro {
 	text-align: justify;
 	padding-left: 400px;
+	margin: 40px;
 }
