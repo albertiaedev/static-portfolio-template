@@ -20,7 +20,7 @@ img {
 	padding: 20px;
 }
 
-ul li {
+#navbar ul li {
 	display: inline-block;
 	align-items: center;
 	justify-content: center;
@@ -31,6 +31,24 @@ ul li {
 	padding-right: 10px;
 }
 
+ul {
+	text-align: center;
+}
+
 ul li a:hover {
 	color: #f11f2f;
+}
+
+.btn {
+	border: 2px solid #1e1e1e;
+	padding: 10px;
+	margin: 25px;
+	margin-left: 150px;
+	text-decoration: none;
+	font-weight: bolder;
+}
+
+.btn:hover {
+	color: #d9d9d9;
+	background: #1e1e1e;
 }
