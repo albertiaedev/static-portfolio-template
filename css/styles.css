@@ -100,6 +100,12 @@ hr {
 	margin: 20px;
 }
 
+.footer {
+	color: #d9d9d9;
+	background: #1e1e1e;
+	text-align: center;
+}
+
 @media (max-width: 1200px) {
 	.btn-download, .btn-hire {
 		color: #d9d9d9;
