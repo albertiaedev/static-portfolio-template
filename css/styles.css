@@ -71,7 +71,6 @@ ul li a:hover {
 	margin-left: 150px;
 	padding-left: 20px;
 	padding-right: 20px;
-
 }
 
 .btn-hire {
@@ -84,4 +83,40 @@ ul li a:hover {
 	text-align: justify;
 	padding-left: 400px;
 	margin: 40px;
+}
+
+@media (max-width: 400px) {
+	.btn-download, .btn-hire {
+		color: #d9d9d9;
+		background: #1e1e1e;
+		border: 2px solid #1e1e1e;
+		padding: 10px;
+		margin: 25px;
+		text-decoration: none;
+		font-weight: bolder;
+	}
+
+	.btn-download:hover, .btn-hire:hover {
+		color: #1e1e1e;
+		background: #d9d9d9;
+	}
+
+	.btn-download {
+		margin-left: 10px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.btn-hire {
+		margin-left: 10px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.intro {
+		text-align: justify;
+		font-size: 12px;
+		padding: 0;
+		margin: 40px;
+	}
 }
