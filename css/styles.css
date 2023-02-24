@@ -97,11 +97,15 @@ hr {
 #about, #projects {
 	text-align: left;
 	margin: 20px;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 
 #skills, #hire {
 	text-align: right;
 	margin: 20px;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 
 .content {
