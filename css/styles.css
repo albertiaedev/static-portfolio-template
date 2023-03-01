@@ -8,7 +8,7 @@
 }
 
 html {
-  scroll-behavior: smooth;
+  	scroll-behavior: smooth;
 }
 
 img {
@@ -111,6 +111,36 @@ hr {
 .content {
 	margin: 20px;
 	text-align: justify;
+}
+
+#skills li {
+	color: #1e1e1e;
+	text-decoration: underline;
+	font-weight: bolder;
+	font-size: 40px;
+}
+
+ul {
+	border: 2px solid #1e1e1e;
+	list-style: none
+}
+
+.left {
+	text-align: left;
+	padding: 20px;
+	padding-left: 40px;
+	background: #d9d9d9;
+}
+
+.right {
+	text-align: right;
+	padding: 20px;
+	padding-right: 40px;
+	background: #d9d9d9;
+}
+
+.left:hover, .right:hover {
+	background: #f11f2f;
 }
 
 strong {
