@@ -70,18 +70,21 @@ ul li a:hover {
 .btn-download:hover, .btn-hire:hover {
 	color: #1e1e1e;
 	background: #d9d9d9;
+	border-radius: 10px;
 }
 
 .btn-download {
 	margin-left: 150px;
 	padding-left: 20px;
 	padding-right: 20px;
+	border-radius: 10px;
 }
 
 .btn-hire {
 	margin-left: 900px;
 	padding-left: 20px;
 	padding-right: 20px;
+	border-radius: 10px;
 }
 
 .intro {
@@ -121,21 +124,21 @@ hr {
 }
 
 ul {
-	border: 2px solid #1e1e1e;
-	list-style: none
+	border: 4px solid #1e1e1e;
+	list-style: none;
 }
 
 .left {
 	text-align: left;
 	padding: 20px;
-	padding-left: 40px;
+	padding-left: 50px;
 	background: #d9d9d9;
 }
 
 .right {
 	text-align: right;
 	padding: 20px;
-	padding-right: 40px;
+	padding-right: 50px;
 	background: #d9d9d9;
 }
 
