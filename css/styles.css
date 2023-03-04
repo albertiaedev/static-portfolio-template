@@ -146,6 +146,15 @@ ul {
 	background: #f11f2f;
 }
 
+.project-card {
+	display: flex;
+	flex-wrap: wrap;
+	width: 40%;
+	margin: 2rem auto;
+	box-shadow: 0 4px 8 px 0 rgba(0, 0, 0, 0.2);
+	transition: 0.3s;
+}
+
 strong {
 	margin-left: 20px;
 }
