@@ -1,8 +1,8 @@
-ScrollReveal().reveal('.top');
-
 ScrollReveal().reveal('img');
 
-ScrollReveal().reveal('.navbar');
+ScrollReveal().reveal('.top', { delay: 500 });
+
+ScrollReveal().reveal('.navbar', { delay: 500 });
 
 ScrollReveal().reveal('.btn-download', { delay: 500 });
 
