@@ -151,8 +151,45 @@ ul {
 	flex-wrap: wrap;
 	width: 40%;
 	margin: 2rem auto;
-	box-shadow: 0 4px 8 px 0 rgba(0, 0, 0, 0.2);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 	transition: 0.3s;
+}
+
+.project-card:hover {
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.9);
+}
+
+.card-image, .card-content {
+	padding: 1rem;
+}
+
+.card-image img {
+	object-fit: cover;
+}
+
+.card-content h2 {
+	margin-bottom: 0.5rem;
+}
+
+.card-content p {
+	font-size: 0.9rem;
+	margin-bottom: 1rem;
+}
+
+.card-content a {
+	display: inline-block;
+	background-color: #1e1e1e;
+	color: #d9d9d9;
+	padding: 0.5rem 1rem;
+	border-radius: 10px;
+	text-decoration: none;
+	transition: 0.3s;
+}
+
+
+.card-content a:hover {
+	background-color: #d9d9d9;
+	color: #1e1e1e;
 }
 
 strong {
