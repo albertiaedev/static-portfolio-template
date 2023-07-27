@@ -1,6 +1,12 @@
 # Static Portfolio Template
 
-This is a portfolio template made with pure HTML, CSS & JavaScript. You need to follow the next steps to clone this repo:
+This is a portfolio template made with pure HTML, CSS & JavaScript.
+
+A portfolio template built totally <b>open-source</b>, built having developers in mind and looking to help you in advance with the development of your portfolio, giving you the structure of a personal portfolio for:
+
+<b>Software engineers, web designers, UX/UI designers and more...</b>
+
+You need to follow the next steps to clone this repo:
 
 # Clone this repository
 
